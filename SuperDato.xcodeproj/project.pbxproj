@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6B48BD715A7150D00A1F272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BD615A7150C00A1F272 /* UIKit.framework */; };
+		F6B48BD915A7150D00A1F272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BD815A7150D00A1F272 /* Foundation.framework */; };
+		F6B48BDB15A7150D00A1F272 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BDA15A7150D00A1F272 /* CoreGraphics.framework */; };
+		F6B48BE115A7150D00A1F272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6B48BDF15A7150D00A1F272 /* InfoPlist.strings */; };
+		F6B48BE315A7150D00A1F272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B48BE215A7150D00A1F272 /* main.m */; };
+		F6B48BE715A7150D00A1F272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B48BE615A7150D00A1F272 /* AppDelegate.m */; };
+		F6B48BEA15A7150D00A1F272 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B48BE815A7150D00A1F272 /* MainStoryboard.storyboard */; };
+		F6B48BED15A7150D00A1F272 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B48BEC15A7150D00A1F272 /* ViewController.m */; };
+		F6B48BF515A7150D00A1F272 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BF415A7150D00A1F272 /* SenTestingKit.framework */; };
+		F6B48BF615A7150D00A1F272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BD615A7150C00A1F272 /* UIKit.framework */; };
+		F6B48BF715A7150D00A1F272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BD815A7150D00A1F272 /* Foundation.framework */; };
+		F6B48BFF15A7150D00A1F272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6B48BFD15A7150D00A1F272 /* InfoPlist.strings */; };
+		F6B48C0215A7150D00A1F272 /* SuperDatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B48C0115A7150D00A1F272 /* SuperDatoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6B48BF815A7150D00A1F272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B48BC915A7150B00A1F272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B48BD115A7150C00A1F272;
+			remoteInfo = SuperDato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6B48BD215A7150C00A1F272 /* SuperDato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B48BD615A7150C00A1F272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6B48BD815A7150D00A1F272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6B48BDA15A7150D00A1F272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6B48BDE15A7150D00A1F272 /* SuperDato-Info.plist */ = {isa = PBXFileReference; path = "SuperDato-Info.plist"; sourceTree = "<group>"; };
+		F6B48BE015A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6B48BE215A7150D00A1F272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6B48BE415A7150D00A1F272 /* SuperDato-Prefix.pch */ = {isa = PBXFileReference; path = "SuperDato-Prefix.pch"; sourceTree = "<group>"; };
+		F6B48BE515A7150D00A1F272 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6B48BE615A7150D00A1F272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6B48BE915A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6B48BEB15A7150D00A1F272 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6B48BEC15A7150D00A1F272 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6B48BF315A7150D00A1F272 /* SuperDatoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDatoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B48BF415A7150D00A1F272 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6B48BFC15A7150D00A1F272 /* SuperDatoTests-Info.plist */ = {isa = PBXFileReference; path = "SuperDatoTests-Info.plist"; sourceTree = "<group>"; };
+		F6B48BFE15A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6B48C0015A7150D00A1F272 /* SuperDatoTests.h */ = {isa = PBXFileReference; path = SuperDatoTests.h; sourceTree = "<group>"; };
+		F6B48C0115A7150D00A1F272 /* SuperDatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDatoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6B48BCF15A7150C00A1F272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48BD715A7150D00A1F272 /* UIKit.framework in Frameworks */,
+				F6B48BD915A7150D00A1F272 /* Foundation.framework in Frameworks */,
+				F6B48BDB15A7150D00A1F272 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B48BEF15A7150D00A1F272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48BF515A7150D00A1F272 /* SenTestingKit.framework in Frameworks */,
+				F6B48BF615A7150D00A1F272 /* UIKit.framework in Frameworks */,
+				F6B48BF715A7150D00A1F272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6B48BC715A7150B00A1F272 = {
+			isa = PBXGroup;
+			children = (
+				F6B48BDC15A7150D00A1F272 /* SuperDato */,
+				F6B48BFA15A7150D00A1F272 /* SuperDatoTests */,
+				F6B48BD515A7150C00A1F272 /* Frameworks */,
+				F6B48BD315A7150C00A1F272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6B48BD315A7150C00A1F272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48BD215A7150C00A1F272 /* SuperDato.app */,
+				F6B48BF315A7150D00A1F272 /* SuperDatoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B48BD515A7150C00A1F272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48BD615A7150C00A1F272 /* UIKit.framework */,
+				F6B48BD815A7150D00A1F272 /* Foundation.framework */,
+				F6B48BDA15A7150D00A1F272 /* CoreGraphics.framework */,
+				F6B48BF415A7150D00A1F272 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B48BDC15A7150D00A1F272 /* SuperDato */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48BE515A7150D00A1F272 /* AppDelegate.h */,
+				F6B48BE615A7150D00A1F272 /* AppDelegate.m */,
+				F6B48BE815A7150D00A1F272 /* MainStoryboard.storyboard */,
+				F6B48BEB15A7150D00A1F272 /* ViewController.h */,
+				F6B48BEC15A7150D00A1F272 /* ViewController.m */,
+				F6B48BDD15A7150D00A1F272 /* Supporting Files */,
+			);
+			path = SuperDato;
+			sourceTree = "<group>";
+		};
+		F6B48BDD15A7150D00A1F272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48BDE15A7150D00A1F272 /* SuperDato-Info.plist */,
+				F6B48BDF15A7150D00A1F272 /* InfoPlist.strings */,
+				F6B48BE215A7150D00A1F272 /* main.m */,
+				F6B48BE415A7150D00A1F272 /* SuperDato-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6B48BFA15A7150D00A1F272 /* SuperDatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48C0015A7150D00A1F272 /* SuperDatoTests.h */,
+				F6B48C0115A7150D00A1F272 /* SuperDatoTests.m */,
+				F6B48BFB15A7150D00A1F272 /* Supporting Files */,
+			);
+			path = SuperDatoTests;
+			sourceTree = "<group>";
+		};
+		F6B48BFB15A7150D00A1F272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6B48BFC15A7150D00A1F272 /* SuperDatoTests-Info.plist */,
+				F6B48BFD15A7150D00A1F272 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6B48BD115A7150C00A1F272 /* SuperDato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B48C0515A7150D00A1F272 /* Build configuration list for PBXNativeTarget "SuperDato" */;
+			buildPhases = (
+				F6B48BCE15A7150C00A1F272 /* Sources */,
+				F6B48BCF15A7150C00A1F272 /* Frameworks */,
+				F6B48BD015A7150C00A1F272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperDato;
+			productName = SuperDato;
+			productReference = F6B48BD215A7150C00A1F272 /* SuperDato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6B48BF215A7150D00A1F272 /* SuperDatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B48C0815A7150D00A1F272 /* Build configuration list for PBXNativeTarget "SuperDatoTests" */;
+			buildPhases = (
+				F6B48BEE15A7150D00A1F272 /* Sources */,
+				F6B48BEF15A7150D00A1F272 /* Frameworks */,
+				F6B48BF015A7150D00A1F272 /* Resources */,
+				F6B48BF115A7150D00A1F272 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B48BF915A7150D00A1F272 /* PBXTargetDependency */,
+			);
+			name = SuperDatoTests;
+			productName = SuperDatoTests;
+			productReference = F6B48BF315A7150D00A1F272 /* SuperDatoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6B48BC915A7150B00A1F272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F6B48BCC15A7150B00A1F272 /* Build configuration list for PBXProject "SuperDato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6B48BC715A7150B00A1F272;
+			productRefGroup = F6B48BD315A7150C00A1F272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B48BD115A7150C00A1F272 /* SuperDato */,
+				F6B48BF215A7150D00A1F272 /* SuperDatoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6B48BD015A7150C00A1F272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48BE115A7150D00A1F272 /* InfoPlist.strings in Resources */,
+				F6B48BEA15A7150D00A1F272 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B48BF015A7150D00A1F272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48BFF15A7150D00A1F272 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6B48BF115A7150D00A1F272 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6B48BCE15A7150C00A1F272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48BE315A7150D00A1F272 /* main.m in Sources */,
+				F6B48BE715A7150D00A1F272 /* AppDelegate.m in Sources */,
+				F6B48BED15A7150D00A1F272 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B48BEE15A7150D00A1F272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B48C0215A7150D00A1F272 /* SuperDatoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6B48BF915A7150D00A1F272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B48BD115A7150C00A1F272 /* SuperDato */;
+			targetProxy = F6B48BF815A7150D00A1F272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6B48BDF15A7150D00A1F272 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B48BE015A7150D00A1F272 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6B48BE815A7150D00A1F272 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B48BE915A7150D00A1F272 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F6B48BFD15A7150D00A1F272 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B48BFE15A7150D00A1F272 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6B48C0315A7150D00A1F272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6B48C0415A7150D00A1F272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6B48C0615A7150D00A1F272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
+				INFOPLIST_FILE = "SuperDato/SuperDato-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6B48C0715A7150D00A1F272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
+				INFOPLIST_FILE = "SuperDato/SuperDato-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6B48C0915A7150D00A1F272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperDato.app/SuperDato";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
+				INFOPLIST_FILE = "SuperDatoTests/SuperDatoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F6B48C0A15A7150D00A1F272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperDato.app/SuperDato";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
+				INFOPLIST_FILE = "SuperDatoTests/SuperDatoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6B48BCC15A7150B00A1F272 /* Build configuration list for PBXProject "SuperDato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B48C0315A7150D00A1F272 /* Debug */,
+				F6B48C0415A7150D00A1F272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B48C0515A7150D00A1F272 /* Build configuration list for PBXNativeTarget "SuperDato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B48C0615A7150D00A1F272 /* Debug */,
+				F6B48C0715A7150D00A1F272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6B48C0815A7150D00A1F272 /* Build configuration list for PBXNativeTarget "SuperDatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B48C0915A7150D00A1F272 /* Debug */,
+				F6B48C0A15A7150D00A1F272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6B48BC915A7150B00A1F272 /* Project object */;
+}
