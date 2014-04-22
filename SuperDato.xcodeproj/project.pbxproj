@@ -20,6 +20,10 @@
 		F6B48BF715A7150D00A1F272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B48BD815A7150D00A1F272 /* Foundation.framework */; };
 		F6B48BFF15A7150D00A1F272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6B48BFD15A7150D00A1F272 /* InfoPlist.strings */; };
 		F6B48C0215A7150D00A1F272 /* SuperDatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B48C0115A7150D00A1F272 /* SuperDatoTests.m */; };
+		F6B48C0C15A7156700A1F272 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B48C0B15A7156700A1F272 /* 114x114.png */; };
+		F6B48C0E15A7156C00A1F272 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B48C0D15A7156C00A1F272 /* 57x57.png */; };
+		F6B48C1015A7158100A1F272 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B48C0F15A7158100A1F272 /* Default@2x.png */; };
+		F6B48C1215A7158500A1F272 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B48C1115A7158500A1F272 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +41,25 @@
 		F6B48BD615A7150C00A1F272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6B48BD815A7150D00A1F272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6B48BDA15A7150D00A1F272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F6B48BDE15A7150D00A1F272 /* SuperDato-Info.plist */ = {isa = PBXFileReference; path = "SuperDato-Info.plist"; sourceTree = "<group>"; };
+		F6B48BDE15A7150D00A1F272 /* SuperDato-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperDato-Info.plist"; sourceTree = "<group>"; };
 		F6B48BE015A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6B48BE215A7150D00A1F272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6B48BE415A7150D00A1F272 /* SuperDato-Prefix.pch */ = {isa = PBXFileReference; path = "SuperDato-Prefix.pch"; sourceTree = "<group>"; };
-		F6B48BE515A7150D00A1F272 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6B48BE415A7150D00A1F272 /* SuperDato-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperDato-Prefix.pch"; sourceTree = "<group>"; };
+		F6B48BE515A7150D00A1F272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6B48BE615A7150D00A1F272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F6B48BE915A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F6B48BEB15A7150D00A1F272 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6B48BEB15A7150D00A1F272 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F6B48BEC15A7150D00A1F272 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6B48BF315A7150D00A1F272 /* SuperDatoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDatoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B48BF415A7150D00A1F272 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F6B48BFC15A7150D00A1F272 /* SuperDatoTests-Info.plist */ = {isa = PBXFileReference; path = "SuperDatoTests-Info.plist"; sourceTree = "<group>"; };
+		F6B48BFC15A7150D00A1F272 /* SuperDatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperDatoTests-Info.plist"; sourceTree = "<group>"; };
 		F6B48BFE15A7150D00A1F272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F6B48C0015A7150D00A1F272 /* SuperDatoTests.h */ = {isa = PBXFileReference; path = SuperDatoTests.h; sourceTree = "<group>"; };
+		F6B48C0015A7150D00A1F272 /* SuperDatoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperDatoTests.h; sourceTree = "<group>"; };
 		F6B48C0115A7150D00A1F272 /* SuperDatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDatoTests.m; sourceTree = "<group>"; };
+		F6B48C0B15A7156700A1F272 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		F6B48C0D15A7156C00A1F272 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		F6B48C0F15A7158100A1F272 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6B48C1115A7158500A1F272 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		F6B48BC715A7150B00A1F272 = {
 			isa = PBXGroup;
 			children = (
+				F6B48C1115A7158500A1F272 /* Default.png */,
+				F6B48C0F15A7158100A1F272 /* Default@2x.png */,
+				F6B48C0D15A7156C00A1F272 /* 57x57.png */,
+				F6B48C0B15A7156700A1F272 /* 114x114.png */,
 				F6B48BDC15A7150D00A1F272 /* SuperDato */,
 				F6B48BFA15A7150D00A1F272 /* SuperDatoTests */,
 				F6B48BD515A7150C00A1F272 /* Frameworks */,
@@ -223,6 +235,10 @@
 			files = (
 				F6B48BE115A7150D00A1F272 /* InfoPlist.strings in Resources */,
 				F6B48BEA15A7150D00A1F272 /* MainStoryboard.storyboard in Resources */,
+				F6B48C0C15A7156700A1F272 /* 114x114.png in Resources */,
+				F6B48C0E15A7156C00A1F272 /* 57x57.png in Resources */,
+				F6B48C1015A7158100A1F272 /* Default@2x.png in Resources */,
+				F6B48C1215A7158500A1F272 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +377,7 @@
 				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
 				INFOPLIST_FILE = "SuperDato/SuperDato-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,6 +389,7 @@
 				GCC_PREFIX_HEADER = "SuperDato/SuperDato-Prefix.pch";
 				INFOPLIST_FILE = "SuperDato/SuperDato-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
